@@ -70,6 +70,7 @@ DarkMed = flip(imrotate(median(DarkFin,3), 180));
 Min = min(DarkMed, [], 'all');
 Max = max(DarkMed, [], 'all');
 
+%Dark plot
 figure(1)
 imagesc(DarkMed); colorbar();
 set(gca,'ColorScale','log');
