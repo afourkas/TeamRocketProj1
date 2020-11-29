@@ -1,3 +1,5 @@
+%Writer: Austen Fourkas | UMD Astronomy | Team Rocket
+
 %Dark imports
 %Import .fit files from library for both bias and dark images
 Dark1 = rfits('P Darks\calib-001-d.fit');
